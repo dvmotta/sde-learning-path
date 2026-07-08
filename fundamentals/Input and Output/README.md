@@ -16,7 +16,7 @@ int age = scanner.nextLine();
 > 💡 **Nota:** Before calling `scanner.nextLine()`, you need to create a `Scanner` class object:  
 Scanner scanner = new Scanner(System.in);
 
-## Saída
+## Output
 Send data produced by program to external world, which can be a text, variable value or both. The ounput command may vary depending on the programming language being used.
 
 ### Python
