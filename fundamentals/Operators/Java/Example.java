@@ -7,7 +7,7 @@ public class Example {
 
         // Addition
         int sum = age + 5;
-        System.out.println("Sum 5 to the age: " + sum);
+        System.out.println("Add 5 to the age: " + sum);
 
         // Subtraction
         int difference = age - 5;
@@ -23,11 +23,11 @@ public class Example {
         
         // Division for floating point numbers
         double quotientDouble = (double) age / 5;
-        System.out.println("Divide the age by 5 (floating point): " + quotientDouble);
+        System.out.println("Divide the age by 5 (floating-point point): " + quotientDouble);
 
         // Modulus
         int remainder = age % 5;
-        System.out.println("Remainder of the age divided by 5: " + remainder);
+        System.out.println("Find the remainder of the age divided by 5: " + remainder);
     }
     
 }
