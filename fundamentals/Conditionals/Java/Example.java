@@ -8,20 +8,32 @@ public class Example {
             System.out.print("Enter the student's grade (0-100): ");
             int grade = scanner.nextInt();
 
-            switch (grade) {
-                case 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100 -> System.out.println("Grade: A");
-                case 80, 81, 82, 83, 84, 85, 86, 87, 88, 89 -> System.out.println("Grade: B");
-                case 70, 71, 72, 73, 74, 75, 76, 77, 78, 79 -> System.out.println("Grade: C");
-                case 60, 61, 62, 63, 64, 65, 66, 67, 68, 69 -> System.out.println("Grade: D");
-                default -> System.out.println("Grade: F");
+            String score;
+            if (grade >= 90) {
+                score = "A";
+                System.out.println("Grade: A");
+            } else if (grade >= 80) {
+                score = "B";
+                System.out.println("Grade: B");
+            } else if (grade >= 70) {
+                score = "C";
+                System.out.println("Grade: C");
+            } else if (grade >= 60) {
+                score = "D";
+                System.out.println("Grade: D");
+            } else if (grade >= 0) {
+                score = "F";
+                System.out.println("Grade: F");
+            } else {
+                score = "Invalid";
+                System.out.println("Invalid grade. Please enter a grade between 0 and 100.");
             }
 
-            if (grade >= 90) {
-                System.out.println("Excellent work!");
-            } else if (grade >= 70) {
-                System.out.println("Good Job!");
-            } else {
-                System.out.println("You need to improve.");
+            switch (score) {
+                case "A" -> System.out.println("Excellent work!");
+                case "B", "C" -> System.out.println("Good job!");
+                case "D", "F" -> System.out.println("You need to improve.");
+                default -> System.out.println("Invalid grade.");
             }
         }
     }
