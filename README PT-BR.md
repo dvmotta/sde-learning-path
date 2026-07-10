@@ -28,9 +28,9 @@ Cada tópico será dividido em 3 partes:
 
 * <kbd>✓</kbd> Variáveis e tipos
 * <kbd>✓</kbd> Operadores
-* <kbd> </kbd> Entrada e saída
-* <kbd> </kbd> Condicionais
-* <kbd> </kbd> Loops
+* <kbd>✓</kbd> Entrada e saída
+* <kbd>✓</kbd> Condicionais
+* <kbd> </kbd> Loops
 * <kbd> </kbd> Funções
 * <kbd> </kbd> Escopo
 * <kbd> </kbd> Tratamento de erros

@@ -28,8 +28,8 @@ Every single topic is structured in 3 parts:
 
 * <kbd>✓</kbd> Variables and types
 * <kbd>✓</kbd> Operators
-* <kbd> </kbd> Input and output
-* <kbd> </kbd> Conditionals
+* <kbd>✓</kbd> Input and output
+* <kbd>✓</kbd> Conditionals
 * <kbd> </kbd> Loops
 * <kbd> </kbd> Functions
 * <kbd> </kbd> Scope
