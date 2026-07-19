@@ -20,8 +20,9 @@ Cada tópico será dividido em 3 partes:
   
 * **📖 Teoria →** Arquivos *.md*
 * **💻 Exemplos →** Arquivos *.py*
-* **🏆 Desafios →** Arquivos *.py*
-  
+
+No final de cada módulo você encontrará um desafio com soluções em *Python* (*.py*) e *Java* (*.java*) usando tudo que aprendemos anteriormente.
+
 ## 🚀 Progresso
 
 ### 1. Fundamentos

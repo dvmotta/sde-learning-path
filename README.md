@@ -3,9 +3,9 @@ During my studies to improve my skills and prepare for tech companies, I came ac
   
 Some would say the best way is trying the theory first, others would say going to practice with real projects. So, I merged it with Sêneca principles, in 1st century, that say:
 > **Homines, dum docent, discunt.  
-"People learn while they teach"**
-
-This repository contains all my lessions, and I hope it can help others to improve themselves and maybe guide their journey.
+"People learn while they teach"**  
+  
+This repository contains all my lessons, and I hope it can help others to improve themselves and maybe guide their journey.
 
 ## 🏛️ Philosophy
 
@@ -15,13 +15,15 @@ Inspired by Seneca's principle *"People learn while they teach"*, this repositor
 
 ## 🎯 Objective
 To reinforce core Software Engineering fundamentals by theory, practice and challenges.  
+
 ## 🧭 Method
-Every single topic is structured in 3 parts:    
+Every single topic is structured in 2 parts:    
   
 * **📖 Theory →** *.md* files.
-* **💻 Examples →** *.py* files.
-* **🏆 Challenges →** *.py* files.
-  
+* **💻 Examples →** *.py* and *.java* files.
+
+At the end of each module, you'll find one challenge with solutions in both *Python* (*.py*) and *Java* (*.java*), using everything learned previously.
+
 ## 🚀 Progress
 
 ### 1. Foundation
